@@ -4,6 +4,6 @@ class User
     @knowledge = []
   end
   def learn(string)
-    @kowledge << string
+    self.kowledge << string
   end
 end
