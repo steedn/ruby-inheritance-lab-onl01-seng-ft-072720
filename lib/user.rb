@@ -7,6 +7,6 @@ class User
     self.knowledge << string
   end
   def teach
-    KNOWLEDGE.rand
+    Teacher.KNOWLEDGE.rand
   end
 end
