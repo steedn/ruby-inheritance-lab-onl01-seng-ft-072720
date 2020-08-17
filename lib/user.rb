@@ -6,4 +6,6 @@ class User
   def learn(string)
     self.knowledge << string
   end
+  def teach
+  end
 end
