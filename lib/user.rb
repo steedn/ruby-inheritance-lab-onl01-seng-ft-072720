@@ -6,7 +6,4 @@ class User
   def learn(string)
     self.knowledge << string
   end
-  def teach
-    Teacher.KNOWLEDGE.rand
-  end
 end
