@@ -3,4 +3,6 @@ class User
   def initialize
     @knowledge = []
   end
+  def learn
+  end
 end
